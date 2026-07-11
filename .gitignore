@@ -1,0 +1,57 @@
+# JLCPCB Kicad Tools plugin, keep only jlcpcb/production_files and project.db
+jlcpcb/gerber/
+
+# Fabrication toolkit output folder
+production
+fabrication-toolkit-options.json
+
+# v10 git history folder
+.history
+
+# Temporary files and backups
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files\#
+*-backups/
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+#*.csv
+#*.html
+#*.pdf
+
+# KiCad 6 and later local project settings (usually kept out of version control)
+*.kicad_prl
+
+# DRC and other reports
+*.drc
+*.rule
+*.rpt
+
+# Search cache
+*.cache
+*-cache.*
+*.lib-cache
+*.new
+
+# 3D model cache (if applicable)
+*.3dshapes
+
+*.step
