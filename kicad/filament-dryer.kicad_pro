@@ -286,7 +286,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|609600|292100|95829ff3-7459-47c3-9e7f-7e71e476fe0d|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -627,7 +632,7 @@
       },
       {
         "netclass": "POWER",
-        "pattern": ".[+-].*"
+        "pattern": ".*[+][1-9]{1,2}V"
       },
       {
         "netclass": "SWD",
@@ -783,7 +788,7 @@
         "uuid": "653fe1c2-85c2-4bc6-b5d3-272b51c76687"
       }
     ],
-    "used_designators": "SW1-2,JP1-2,#FLG3,Q1-6,F1-2,R1-13,R16-18,U1-4,D1-2,C1-7,C10,J1-8,#GND1-2,L1-2,FB1-2,V1-4,Y1-2,#PWR1,#PWR3-18,#PWR23-26",
+    "used_designators": "#PWR1,#PWR3-18,#PWR23-29,V1-4,Y1-2,J1-8,CN1,#GND1-2,L1-2,FB1-2,RV1,SW1-2,#FLG3-6,Q1-6,F1-2,R1-13,R16-18,JP1-2,U1-4,D1-2,C1-7,C10",
     "variants": []
   },
   "sheets": [
