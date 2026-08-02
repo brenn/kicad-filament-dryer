@@ -294,6 +294,10 @@
       [
         "lib_symbol_mismatch|901700|292100|95829ff3-7459-47c3-9e7f-7e71e476fe0d|00000000-0000-0000-0000-000000000000|||",
         ""
+      ],
+      [
+        "lib_symbol_mismatch|990600|1282700|eec26d8b-85ec-4436-a7f2-dfeefb988944|00000000-0000-0000-0000-000000000000|||",
+        ""
       ]
     ],
     "meta": {
@@ -792,7 +796,7 @@
         "uuid": "653fe1c2-85c2-4bc6-b5d3-272b51c76687"
       }
     ],
-    "used_designators": "Q1-6,U1-4,D1-2,C1-7,C10,TJ1,#FLG3-6,TH1,#PWR1,#PWR3-18,#PWR23-31,Y1-2,V1-4,SW1-2,CN1,J1-8,BT1,F1-2,R1-13,R16-21,JP1-2,#GND1-2,FB1-2,L1-2,RV1",
+    "used_designators": "MH1-4,FID1-3,J1-8,CN1,SW1-2,Y1-2,#PWR1-31,V1-4,TH1,#FLG1-6,#GND1-2,RV1,L1-2,FB1-2,JP1-2,R1-14,R16-21,F1-2,Q1-6,BT1,U1-4,D1-2,C1-10,TJ1",
     "variants": []
   },
   "sheets": [

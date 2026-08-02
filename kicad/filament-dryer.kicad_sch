@@ -6290,16 +6290,16 @@
 		(uuid "0fc32a43-8c67-4c46-b101-c99ea19cb863")
 	)
 	(junction
-		(at 111.76 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "150e67d2-dacf-4ca6-94ed-fb19d847e414")
-	)
-	(junction
 		(at 72.39 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "178e13f8-d6da-4443-b0e0-0352522af869")
+	)
+	(junction
+		(at 115.57 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1909161d-c666-4705-b8d2-af033fc51bdc")
 	)
 	(junction
 		(at 100.33 165.1)
@@ -6320,12 +6320,6 @@
 		(uuid "3a21c9fe-d309-4c51-9773-bff1f5050fd2")
 	)
 	(junction
-		(at 128.27 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b9ac234-c20a-4e77-8fc6-a647b0185058")
-	)
-	(junction
 		(at 255.27 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6342,12 +6336,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45d352e4-c180-4319-9c36-11cfaa4379a0")
-	)
-	(junction
-		(at 115.57 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c7dff82-b3cc-442e-ba23-aa1007b35087")
 	)
 	(junction
 		(at 210.82 50.8)
@@ -6374,7 +6362,7 @@
 		(uuid "6b177668-eb12-4770-bcd9-a0ae8257e50c")
 	)
 	(junction
-		(at 124.46 78.74)
+		(at 125.73 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "735cf539-167f-4e0f-a3e9-53b3faddd29f")
@@ -6500,10 +6488,16 @@
 		(uuid "d537c9e9-9c5f-4160-a68c-7b7502b93458")
 	)
 	(junction
-		(at 124.46 26.67)
+		(at 130.81 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d71e5c08-ca12-422d-9800-883241b6fde9")
+	)
+	(junction
+		(at 110.49 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db930cc2-d0cc-4590-8109-2b971bacdc92")
 	)
 	(junction
 		(at 30.48 100.33)
@@ -6512,7 +6506,7 @@
 		(uuid "dc332a25-0e25-41e9-9c5f-941ff0daa851")
 	)
 	(junction
-		(at 124.46 86.36)
+		(at 125.73 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcfae9fb-f570-4fc6-b0e9-0a66ebf75a23")
@@ -6522,6 +6516,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4dfb55f-a648-4fa4-9cb1-9c6643cb6777")
+	)
+	(junction
+		(at 115.57 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e82dec8b-d086-4437-a9cc-43f1f635928c")
 	)
 	(junction
 		(at 43.18 113.03)
@@ -6761,7 +6761,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 78.74) (xy 115.57 78.74)
+			(xy 125.73 78.74) (xy 115.57 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6791,7 +6791,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 26.67) (xy 111.76 26.67)
+			(xy 109.22 26.67) (xy 110.49 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6851,23 +6851,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 86.36) (xy 124.46 86.36)
+			(xy 115.57 86.36) (xy 125.73 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "13aa1343-fd3d-4230-99e1-34741c88762b")
-	)
-	(wire
-		(pts
-			(xy 128.27 36.83) (xy 128.27 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14c77e84-a5b0-493c-9753-b8f5cc467d58")
 	)
 	(wire
 		(pts
@@ -6941,7 +6931,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 26.67) (xy 124.46 26.67)
+			(xy 128.27 26.67) (xy 130.81 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7061,7 +7051,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 31.75) (xy 111.76 31.75)
+			(xy 100.33 31.75) (xy 110.49 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7091,7 +7081,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 76.2) (xy 124.46 78.74)
+			(xy 125.73 76.2) (xy 125.73 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7581,7 +7571,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 26.67) (xy 128.27 26.67)
+			(xy 130.81 26.67) (xy 134.62 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7591,7 +7581,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 85.09) (xy 124.46 86.36)
+			(xy 125.73 85.09) (xy 125.73 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7921,7 +7911,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 26.67) (xy 111.76 31.75)
+			(xy 110.49 26.67) (xy 110.49 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8001,7 +7991,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 86.36) (xy 124.46 87.63)
+			(xy 125.73 86.36) (xy 125.73 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8061,7 +8051,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 80.01) (xy 124.46 78.74)
+			(xy 125.73 80.01) (xy 125.73 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8091,6 +8081,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 35.56) (xy 115.57 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd0ba3e-c06d-47d2-a22c-3611f5594a41")
+	)
+	(wire
+		(pts
 			(xy 266.7 26.67) (xy 265.43 26.67)
 		)
 		(stroke
@@ -8101,7 +8101,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 38.1) (xy 128.27 38.1)
+			(xy 90.17 38.1) (xy 115.57 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8171,7 +8171,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 25.4) (xy 128.27 26.67)
+			(xy 134.62 25.4) (xy 134.62 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8301,7 +8301,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 24.13) (xy 124.46 26.67)
+			(xy 130.81 24.13) (xy 130.81 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8428,6 +8428,16 @@
 			(type default)
 		)
 		(uuid "c850dfb4-50b5-40f0-b07b-4462a1a90c78")
+	)
+	(wire
+		(pts
+			(xy 115.57 26.67) (xy 115.57 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89ec09f-a97a-40f0-9b6f-69f1c123a544")
 	)
 	(wire
 		(pts
@@ -8601,16 +8611,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 26.67) (xy 128.27 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc561ad1-285a-4f2a-a2c1-e3c9746b2b65")
-	)
-	(wire
-		(pts
 			(xy 142.24 60.96) (xy 142.24 63.5)
 		)
 		(stroke
@@ -8678,16 +8678,6 @@
 			(type default)
 		)
 		(uuid "e1efa803-df19-424e-87d5-b0c29d025849")
-	)
-	(wire
-		(pts
-			(xy 111.76 26.67) (xy 114.3 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3a64c07-9a79-4907-804c-fe573f163976")
 	)
 	(wire
 		(pts
@@ -8761,6 +8751,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 26.67) (xy 120.65 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2a98da-e35c-40a0-88e9-229100780297")
+	)
+	(wire
+		(pts
 			(xy 114.3 128.27) (xy 133.35 128.27)
 		)
 		(stroke
@@ -8818,6 +8818,16 @@
 			(type default)
 		)
 		(uuid "f08fb09e-b492-4c19-8644-6f80b38bc261")
+	)
+	(wire
+		(pts
+			(xy 110.49 26.67) (xy 115.57 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e2553b-5d92-4dab-80c2-7ad09110919e")
 	)
 	(wire
 		(pts
@@ -16608,7 +16618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0167ca3f-cef3-4f42-b4a8-3581c1c4d784")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR02"
 			(at 26.67 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16669,7 +16679,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR024")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -16677,7 +16687,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 124.46 82.55 0)
+		(at 125.73 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16687,8 +16697,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02cd7264-0cd2-468c-a9e9-6b52725cce64")
-		(property "Reference" "C6"
-			(at 127 81.2862 0)
+		(property "Reference" "C9"
+			(at 128.27 81.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16699,7 +16709,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 127 83.8262 0)
+			(at 128.27 83.8262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16709,8 +16719,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm"
-			(at 124.46 82.55 0)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-20_AVX-F"
+			(at 125.73 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16721,7 +16731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 82.55 0)
+			(at 125.73 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16732,7 +16742,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 124.46 82.55 0)
+			(at 125.73 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16743,7 +16753,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 124.46 82.55 0)
+			(at 125.73 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16762,7 +16772,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16770,7 +16780,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 118.11 26.67 90)
+		(at 124.46 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16780,8 +16790,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "089cccf9-6936-4a7f-8d87-a000906f5503")
-		(property "Reference" "F1"
-			(at 118.11 20.32 90)
+		(property "Reference" "F2"
+			(at 124.46 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16791,7 +16801,7 @@
 			)
 		)
 		(property "Value" "1A"
-			(at 118.11 22.86 90)
+			(at 124.46 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16801,7 +16811,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 123.19 25.4 0)
+			(at 129.54 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16813,7 +16823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 26.67 0)
+			(at 124.46 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16824,7 +16834,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 118.11 26.67 0)
+			(at 124.46 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16835,7 +16845,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 118.11 26.67 90)
+			(at 124.46 26.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16854,7 +16864,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "F1")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -16872,7 +16882,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fbf94d5-9fe1-44f7-997c-cd613efc19ee")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 52.578 116.078 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16947,7 +16957,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -17148,7 +17158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1452230c-09c0-4a44-9039-61e6519bdb97")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 241.046 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17220,7 +17230,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -17228,7 +17238,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 124.46 76.2 0)
+		(at 125.73 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17238,8 +17248,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17c08312-d013-459a-93b7-bc9611ea1e7c")
-		(property "Reference" "#FLG05"
-			(at 124.46 74.295 0)
+		(property "Reference" "#FLG03"
+			(at 125.73 74.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17250,7 +17260,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 124.46 71.12 0)
+			(at 125.73 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17261,7 +17271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 76.2 0)
+			(at 125.73 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17272,7 +17282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 76.2 0)
+			(at 125.73 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17283,7 +17293,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 124.46 76.2 0)
+			(at 125.73 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17299,7 +17309,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#FLG05")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -17316,7 +17326,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a29d320-8d88-49e8-bd52-16af257a21f8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR03"
 			(at 29.21 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -17376,7 +17386,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR022")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -17384,7 +17394,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 128.27 25.4 0)
+		(at 134.62 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17394,8 +17404,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21640a85-e077-49f5-aa55-f202466cd2f3")
-		(property "Reference" "#PWR01"
-			(at 128.27 29.21 0)
+		(property "Reference" "#PWR015"
+			(at 134.62 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17406,7 +17416,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 128.27 20.32 0)
+			(at 134.62 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17416,7 +17426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 25.4 0)
+			(at 134.62 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17427,7 +17437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 25.4 0)
+			(at 134.62 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17438,7 +17448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 128.27 25.4 0)
+			(at 134.62 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17454,7 +17464,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR01")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -17472,7 +17482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d7b898-d075-4774-84b2-722abe10d70e")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 76.2 81.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17494,7 +17504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-20_AVX-F"
 			(at 73.66 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -17547,7 +17557,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -17564,7 +17574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2259e2a3-fa55-49ca-86e9-c2e50a640bb8")
-		(property "Reference" "R13"
+		(property "Reference" "R2"
 			(at 26.67 156.2101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17639,7 +17649,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R13")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -17656,7 +17666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "277dd0b5-6514-4841-bf25-a3f7524639d7")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 229.87 82.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17731,7 +17741,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -17749,7 +17759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3182bdff-e389-4dbb-9059-ac70d44a0aeb")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR016"
 			(at 151.13 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -17809,7 +17819,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR08")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -17827,7 +17837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34598ca0-637a-4614-95e3-50ec6100030f")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR019"
 			(at 179.07 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17887,7 +17897,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR025")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -17905,7 +17915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36588d21-a469-437b-8ede-b0706b63fb96")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR030"
 			(at 278.13 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -17966,7 +17976,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR02")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -18189,7 +18199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c95420d-5482-4f33-b694-41ccdfba2e84")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 260.35 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -18250,7 +18260,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -18267,7 +18277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49e6bcaf-fc30-41ac-b535-a67eb7a65ad4")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR028"
 			(at 265.43 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -18327,7 +18337,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR012")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -18345,7 +18355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a0c78a4-90b7-4023-8225-9637fe6ba13b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 232.41 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -18406,7 +18416,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -18424,7 +18434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4aa0564e-e003-4db8-9111-02cc94a2ce4f")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 68.58 29.5909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18498,7 +18508,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -18516,7 +18526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4adaf713-a213-45f7-bf36-d75cb6bf761b")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR07"
 			(at 60.96 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -18577,7 +18587,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR030")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -18594,7 +18604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bd881e3-7d0b-497b-a69b-bf1eaa93999b")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 240.03 53.3401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18669,7 +18679,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -18773,7 +18783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50c5f2ce-623d-4321-8971-e5ff38462d79")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 45.466 151.384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18841,7 +18851,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -18859,7 +18869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54f4ca48-d0a5-4e78-9686-704a2d6badba")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG04"
 			(at 171.45 116.205 0)
 			(hide yes)
 			(show_name no)
@@ -18920,7 +18930,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#FLG06")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -18937,7 +18947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "596b367d-e0cb-4ace-8d56-d709cb10ed04")
-		(property "Reference" "R16"
+		(property "Reference" "R3"
 			(at 63.5 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19012,7 +19022,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R16")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -19030,7 +19040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f5176ff-0d9a-4940-8cd3-529215f97ce0")
-		(property "Reference" "R19"
+		(property "Reference" "R5"
 			(at 138.176 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19105,7 +19115,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R19")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -19123,7 +19133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6040820e-862c-4d64-a60a-d027a4163133")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR012"
 			(at 76.2 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19184,7 +19194,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR017")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -19202,7 +19212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6195ef80-cb2f-41df-bba3-8807c93b19ab")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR029"
 			(at 265.43 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -19263,7 +19273,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR011")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -19280,7 +19290,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62619511-2130-47c8-aa8a-20789452970c")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 78.74 118.1162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19355,7 +19365,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -19373,7 +19383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "663424d5-286e-4288-8ff5-68eacf366401")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 205.74 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19448,7 +19458,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -19466,7 +19476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "675eefe9-a57b-49a1-945c-90bd330627a0")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 85.09 81.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19541,7 +19551,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -19559,7 +19569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68d495df-29ce-44ae-b61d-ae7f5ca8a080")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 228.346 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19634,7 +19644,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -19742,7 +19752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fb6ba61-24d4-402a-9c47-a1268fcb79cf")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 237.49 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -19803,7 +19813,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -19911,7 +19921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a1e0802-e777-4aa7-be41-726851301367")
-		(property "Reference" "R14"
+		(property "Reference" "R4"
 			(at 97.536 74.676 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19986,7 +19996,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R14")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -19994,7 +20004,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 87.63 0)
+		(at 125.73 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20004,8 +20014,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7da2cc18-9fc9-409a-b4aa-f96d20245738")
-		(property "Reference" "#PWR016"
-			(at 124.46 93.98 0)
+		(property "Reference" "#PWR014"
+			(at 125.73 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20016,7 +20026,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 92.71 0)
+			(at 125.73 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20027,7 +20037,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 87.63 0)
+			(at 125.73 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20038,7 +20048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 87.63 0)
+			(at 125.73 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20049,7 +20059,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 87.63 0)
+			(at 125.73 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20065,7 +20075,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -20083,7 +20093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80426d26-6db8-4a59-beeb-02e2d5498212")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 64.77 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -20143,7 +20153,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -20162,7 +20172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80eb3e05-1d78-4850-9e2b-6c3ae6bc15df")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 185.42 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20238,7 +20248,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -20256,7 +20266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8164023a-2b96-42e3-87ea-fe17d1488166")
-		(property "Reference" "Q5"
+		(property "Reference" "Q1"
 			(at 153.67 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20348,7 +20358,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "Q5")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -20456,7 +20466,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84009454-33d4-4e87-8c6a-03616fc2caad")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 24.13 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -20530,7 +20540,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -20659,7 +20669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85a4782a-35a2-4f1c-ae06-c7a9de3088ac")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR022"
 			(at 186.69 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -20720,7 +20730,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR029")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -20830,7 +20840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b4e6190-bdc4-49d6-9ac8-8ac22e42d122")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 212.852 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20905,7 +20915,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -21010,7 +21020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95829ff3-7459-47c3-9e7f-7e71e476fe0d")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 90.17 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21102,7 +21112,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -21119,7 +21129,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96367768-3a67-4c49-bed1-e427d7e78691")
-		(property "Reference" "R18"
+		(property "Reference" "R1"
 			(at 21.59 93.9801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21194,7 +21204,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R18")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -21202,7 +21212,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 124.46 24.13 0)
+		(at 130.81 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21212,8 +21222,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aa6072a-a022-4765-a343-9b9bc60c58fc")
-		(property "Reference" "#FLG04"
-			(at 124.46 22.225 0)
+		(property "Reference" "#FLG02"
+			(at 130.81 22.225 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21224,7 +21234,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 124.46 19.05 0)
+			(at 130.81 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21235,7 +21245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 24.13 0)
+			(at 130.81 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21246,7 +21256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 24.13 0)
+			(at 130.81 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21257,7 +21267,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 124.46 24.13 0)
+			(at 130.81 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21273,7 +21283,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#FLG04")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -21291,7 +21301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aead9a4-7968-4f68-b87b-f4f516f309a6")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR011"
 			(at 73.66 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -21352,7 +21362,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR015")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -21370,7 +21380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b635bc2-55fd-4974-b721-4abc6264ba4f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR010"
 			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -21430,7 +21440,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR04")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -21448,7 +21458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ba662e4-61b6-4e39-b704-49dc5e4d9f9a")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG05"
 			(at 278.13 170.815 0)
 			(hide yes)
 			(show_name no)
@@ -21508,7 +21518,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#FLG01")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -21644,7 +21654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a336804b-f52f-42d3-a98b-6c2815ebad0d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR05"
 			(at 30.48 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -21705,7 +21715,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR014")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -21723,7 +21733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a95394f3-ea7e-4a3c-bd17-f87aadd05342")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR020"
 			(at 179.07 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21784,7 +21794,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR026")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -21801,7 +21811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad3e07cf-942d-40e5-b54c-5057fcda6476")
-		(property "Reference" "R17"
+		(property "Reference" "R12"
 			(at 234.95 110.4901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21876,7 +21886,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R17")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -21894,7 +21904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0557f98-5454-4ff6-874d-849235d380e5")
-		(property "Reference" "Q1"
+		(property "Reference" "Q4"
 			(at 269.24 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21975,7 +21985,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "Q1")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -21993,7 +22003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b455c37a-f8ac-4c87-9952-6430875cce76")
-		(property "Reference" "Q4"
+		(property "Reference" "Q2"
 			(at 223.52 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22085,7 +22095,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "Q4")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -22103,7 +22113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5729c2e-c380-434a-b318-3b9dc96bb630")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR09"
 			(at 72.39 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -22164,7 +22174,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR013")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -22182,7 +22192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b622bbf3-ccd3-48f7-a6bc-a3348e3b1604")
-		(property "Reference" "J8"
+		(property "Reference" "J4"
 			(at 162.56 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22246,7 +22256,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "J8")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -22264,7 +22274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9077713-550a-46a8-b7b5-f3f00ddcfff4")
-		(property "Reference" "C10"
+		(property "Reference" "C1"
 			(at 33.02 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22339,7 +22349,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "C10")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -22357,7 +22367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba338400-2fd3-4557-9582-0b711350b1b0")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR023"
 			(at 231.14 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -22417,7 +22427,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR010")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -22615,7 +22625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1d970f5-86f0-4ad4-a91d-356dc6f026b4")
-		(property "Reference" "J1"
+		(property "Reference" "J8"
 			(at 274.32 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22690,7 +22700,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "J1")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -22799,7 +22809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c22d0282-7bf7-419f-adb1-87e37fef8409")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR013"
 			(at 100.33 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -22860,7 +22870,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR018")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -22968,7 +22978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc8c4768-eb27-4ab0-bfda-9cf245838759")
-		(property "Reference" "F2"
+		(property "Reference" "F1"
 			(at 50.8 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23042,7 +23052,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "F2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -23060,7 +23070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d88be84c-2d90-43a9-80a6-0c2142bf438f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 24.13 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -23120,7 +23130,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -23138,7 +23148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db71029d-8c36-44cb-9c49-bc6ddc7dfaa7")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR021"
 			(at 186.69 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -23198,7 +23208,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR05")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -23216,7 +23226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc7f51c7-edfa-4c84-8328-8e77d12f6451")
-		(property "Reference" "R20"
+		(property "Reference" "R6"
 			(at 144.272 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23291,7 +23301,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R20")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -23403,7 +23413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e074ecd9-0770-438e-8286-040c43724571")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR026"
 			(at 260.35 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -23463,7 +23473,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR07")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -23481,7 +23491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e127d53c-27e0-482c-98f7-85f2101a33cb")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR018"
 			(at 167.64 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -23542,7 +23552,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR027")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -23560,7 +23570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e237a69a-0468-4717-80e3-bbacbc262be9")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR04"
 			(at 29.21 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -23621,7 +23631,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR020")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -23639,7 +23649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e54ee272-592f-4ddd-b1cc-3372e5cc6661")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR017"
 			(at 151.13 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -23700,7 +23710,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR031")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -23717,7 +23727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e620d35c-bb59-4613-add9-16fe28ce76ff")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 52.324 108.204 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23792,7 +23802,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -23810,7 +23820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7014b69-4d91-43f6-969b-8e5cdeea2dc6")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 76.2 20.955 0)
 			(hide yes)
 			(show_name no)
@@ -23871,7 +23881,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -24232,7 +24242,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 128.27 33.02 0)
+		(at 115.57 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24241,8 +24251,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee2fb443-b7c0-4b39-a2f7-41926efb11b5")
-		(property "Reference" "C2"
-			(at 132.08 30.8609 0)
+		(property "Reference" "C10"
+			(at 118.618 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24253,7 +24263,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 132.08 33.4009 0)
+			(at 118.618 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24264,7 +24274,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
-			(at 129.2352 36.83 0)
+			(at 116.5352 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24275,7 +24285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 33.02 0)
+			(at 115.57 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24286,7 +24296,7 @@
 			)
 		)
 		(property "Description" "Tantalum 35V"
-			(at 139.446 35.814 0)
+			(at 125.984 35.9411 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24296,7 +24306,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 128.27 33.02 0)
+			(at 115.57 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24315,7 +24325,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "C2")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -24333,7 +24343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eec26d8b-85ec-4436-a7f2-dfeefb988944")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 103.7433 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24487,7 +24497,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -24584,7 +24594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f76c5a44-41f3-41c0-b7e0-2b648e7da986")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 69.85 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24648,7 +24658,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -24666,7 +24676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7d8c8d0-bbad-43ba-86c8-bbe965ed08f2")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 118.11 81.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24741,7 +24751,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -24759,7 +24769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc76782d-090c-4629-801d-a7750c0d8751")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR06"
 			(at 43.18 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -24820,7 +24830,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "#PWR019")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -24837,7 +24847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd0635d3-8194-4b53-87ab-1ce79dbf9ac2")
-		(property "Reference" "R21"
+		(property "Reference" "R14"
 			(at 252.73 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24912,7 +24922,7 @@
 		(instances
 			(project "filament-dryer"
 				(path "/653fe1c2-85c2-4bc6-b5d3-272b51c76687"
-					(reference "R21")
+					(reference "R14")
 					(unit 1)
 				)
 			)
