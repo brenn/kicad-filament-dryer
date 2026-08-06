@@ -2,7 +2,19 @@
 
 Using an AtMega and old Ender 5 heat plate to make a filament drying box
 
-## Status
+## Status / TODO
+
+* Gjør ferdig fan deteksjons-krets, signal fra pnp må ti mosfet driver på et hvis
+
+* Discussed with AI regarding 4-pin FAN control and stall detection using diodes, resistor and PNP transistor
+https://chatgpt.com/share/6a73b5c4-4dc8-83eb-8aa8-39055729d19b
+  * CONCLUSION: Use a buck converter for 24V->13.2v  instead of biased BD139 arrangement to feed the diodes/resistor current detection circuit
+  * Cannot use MIC4680-5BM,  AI suggested MCP16331 which is cheap and looks nice
+* Can also use the old MC34063 which i have plenty of
+  * https://chatgpt.com/share/6a73c253-b44c-83eb-a0b3-313f6cf0aaa1
+
+* Also, discussed with AI on how to implement ADC driven FAN PWM on atmega8
+  * https://chatgpt.com/share/6a73b632-64b8-83eb-b409-dc50dc401a8e
 
 # Design 
 
